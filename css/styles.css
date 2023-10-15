@@ -289,6 +289,29 @@ ol {
   letter-spacing: 0.32px;
 }
 
+.social-media-links {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.team-social-link {
+  width: 40px;
+  height: 40px;
+  background-color: var(--main-page-color-2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-social-item {
+  fill: var(--main-page-color-2);
+  width: 16px;
+  height: 16px;
+}
+
 /* FOOTER SECTION */
 
 .footer-background {
