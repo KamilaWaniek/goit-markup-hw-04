@@ -7,6 +7,7 @@
   --main-page-color-2: #4d5ae5;
   --active-links-color: #404bbf;
   --main-border-color: #8e8f99;
+  --color-dark-translucent: rgba(46, 47, 66, 0.7);
 }
 
 .container {
@@ -148,7 +149,10 @@ ol {
 
 .section-headline-background {
   background: var(--main-page-color);
-  background-image: url(../images/people-office.jpg);
+  background-image: linear-gradient
+      (var(--color-dark-translucent), var(--color-dark-translucent)),
+    url(../images/people-office.jpg);
+  background-size: cover;
   padding: 188px 0;
 }
 
