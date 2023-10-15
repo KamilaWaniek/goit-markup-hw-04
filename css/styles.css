@@ -312,6 +312,18 @@ ol {
   height: 16px;
 }
 
+/* CUSTOMERS SECTION */
+
+.company-customers-names {
+  display: block;
+  text-align: center;
+}
+
+.customers-list {
+  width: 168px;
+  gap: 24px;
+}
+
 /* FOOTER SECTION */
 
 .footer-background {
