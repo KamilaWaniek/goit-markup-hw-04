@@ -385,6 +385,8 @@ ol {
 .footer-background {
   background-color: var(--main-page-color);
   padding: 100px 0;
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-website-logo {
@@ -416,6 +418,26 @@ ol {
   line-height: 1.5em;
   letter-spacing: 0.32px;
   max-width: 264px;
+}
+
+.footer-social-media {
+  color: var(--background-color);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
+}
+
+.footer-social-links {
+  gap: 120px;
+}
+
+.social-media-links {
+  display: flex;
+  gap: 16px;
 }
 
 /* PORTFOLIO PAGE SITE */
