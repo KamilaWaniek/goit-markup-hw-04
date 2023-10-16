@@ -439,6 +439,11 @@ ol {
   align-items: baseline;
 }
 
+.footer-social-icons:hover,
+.footer-social-icons:focus {
+  background-color: var(--active-links-color-2);
+}
+
 .footer-section-left {
   margin-right: 120px;
 }
