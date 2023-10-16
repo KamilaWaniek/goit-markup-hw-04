@@ -160,6 +160,7 @@ ol {
   background-position: center;
   background-size: cover;
   padding-bottom: 188px;
+  margin: 0 auto;
 }
 
 .main-page-header {
