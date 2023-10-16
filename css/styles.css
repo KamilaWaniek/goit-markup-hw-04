@@ -375,6 +375,10 @@ ol {
   border-color: var(--active-links-color);
 }
 
+.customers-list-icon {
+  fill: currentColor;
+}
+
 /* FOOTER SECTION */
 
 .footer-background {
