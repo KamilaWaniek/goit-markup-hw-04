@@ -6,6 +6,7 @@
   --main-page-color: #2e2f42;
   --main-page-color-2: #4d5ae5;
   --active-links-color: #404bbf;
+  --active-links-color-2: #31d0aa;
   --main-border-color: #8e8f99;
 }
 
@@ -334,13 +335,11 @@ ol {
 
 .team-social-link:hover,
 .team-social-link:focus {
-  background-color: var(--active-links-color);
+  background-color: var(--active-links-color-2);
 }
 
 .team-social-item {
   fill: var(--main-text-color-2);
-  width: 16px;
-  height: 16px;
 }
 
 /* CUSTOMERS SECTION */
@@ -437,10 +436,7 @@ ol {
 }
 
 .footer-section-left {
-  gap: 120px;
-}
-
-.footer-section-right {
+  margin-right: 120px;
 }
 
 .social-media-links {
