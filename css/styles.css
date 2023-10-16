@@ -323,6 +323,10 @@ ol {
   margin-top: 8px;
 }
 
+.social-media-list {
+  gap: 24px;
+}
+
 .team-social-link {
   width: 40px;
   height: 40px;
@@ -335,7 +339,7 @@ ol {
 
 .team-social-link:hover,
 .team-social-link:focus {
-  background-color: var(--active-links-color-2);
+  background-color: var(--active-links-color);
 }
 
 .team-social-item {
