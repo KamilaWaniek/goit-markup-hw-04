@@ -160,6 +160,7 @@ ol {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 188px;
   padding-bottom: 188px;
   margin: 0 auto;
 }
@@ -173,7 +174,6 @@ ol {
   text-align: center;
   max-width: 496px;
   margin: 0 auto;
-  padding-top: 188px;
   padding-bottom: 48px;
 }
 
@@ -251,7 +251,8 @@ ol {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 120x;
+  padding-top: 0;
+  padding-bottom: 120px;
 }
 
 .images-what-are-we-doing {
