@@ -241,6 +241,10 @@ ol {
 
 /* WHAT ARE WE DOING SECTION */
 
+.third-section {
+  padding-bottom: 120px;
+}
+
 .header-what-are-we-doing {
   display: flex;
   justify-content: center;
@@ -252,7 +256,6 @@ ol {
   justify-content: center;
   gap: 24px;
   padding-top: 0;
-  padding-bottom: 120px;
 }
 
 .images-what-are-we-doing {
